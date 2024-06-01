@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
+  <title>Album Musik</title>
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles/style.css" class="href">
+  <link rel="stylesheet" href="styles/style.css">
   <style>
     /* Gaya khusus untuk foto personel */
     .personel-img {
@@ -17,44 +17,51 @@
 </head>
 <body>
   <div class="container">
-    <h1></h1>
+    <h1 class="my-4 text-center">Judul Album</h1>
     <!-- Putar Lagu -->
-    <div class="mb-3">
+    <div class="mb-3 text-center">
       <audio controls>
         <source src="audio/fairytale-69632.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
       </audio>
     </div>
     <!-- Deskripsi Lagu -->
-    <p>Deskripsi lagu disini.</p>
+    <p class="text-center">Deskripsi lagu disini.</p>
     <!-- Video Klip -->
-    <div class="mb-3">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="mb-3 text-center">
+      <iframe width="560" height="315" src="audio/NIKI - Oceans & Engines (Official Music Video).mp4" ></iframe>
     </div>
     <!-- Foto Album -->
-    <div class="mb-3">
+    <div class="mb-3 text-center">
       <img src="album.jpg" class="img-fluid" alt="Album Cover">
     </div>
     <!-- Foto Personel -->
-    <div class="row">
+    <div class="row text-center">
       <div class="col-md-3">
-        <img src="personel1.jpg" class="personel-img img-fluid" alt="Personel 1">
+        <img src="personel1.jpg" class="personel-img img-fluid rounded-circle" alt="Personel 1">
         <p>Nama Personel 1</p>
       </div>
       <div class="col-md-3">
-        <img src="personel2.jpg" class="personel-img img-fluid" alt="Personel 2">
+        <img src="personel2.jpg" class="personel-img img-fluid rounded-circle" alt="Personel 2">
         <p>Nama Personel 2</p>
       </div>
       <div class="col-md-3">
-        <img src="personel3.jpg" class="personel-img img-fluid" alt="Personel 3">
+        <img src="personel3.jpg" class="personel-img img-fluid rounded-circle" alt="Personel 3">
         <p>Nama Personel 3</p>
       </div>
       <div class="col-md-3">
-        <img src="personel4.jpg" class="personel-img img-fluid" alt="Personel 4">
+        <img src="personel4.jpg" class="personel-img img-fluid rounded-circle" alt="Personel 4">
         <p>Nama Personel 4</p>
       </div>
     </div>
     <!-- Tombol Menuju Halaman 2 -->
-    <a href="page2.html" class="btn btn-primary">Halaman 2</a>
+    <div class="text-center my-4">
+      <a href="page2.html" class="btn btn-primary">Halaman 2</a>
+    </div>
   </div>
+  <!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
