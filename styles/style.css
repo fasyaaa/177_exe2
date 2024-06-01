@@ -1,0 +1,20 @@
+/* Gaya khusus untuk foto personel */
+.personel-img {
+    max-width: 150px; /* Atur lebar maksimum untuk gambar personel */
+    margin-bottom: 10px; /* Beri jarak antara gambar */
+  }
+  /* Buat video menyesuaikan dengan lebar elemen */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+  }
+  .video-container video,
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
