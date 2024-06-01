@@ -21,11 +21,11 @@
         <input type="date" class="form-control" id="dateField">
       </div>
       <div class="form-group">
-        <label for="selectField">Score</label>
+        <label for="selectField">Rating</label>
         <select class="form-control" id="selectField">
-          <option value="option1">⭐️⭐️⭐️⭐️</option>
-          <option value="option2">⭐️⭐️⭐️⭐️⭐️</option>
-          <option value="option3">⭐️⭐️⭐️⭐️⭐️⭐️</option>
+          <option value="⭐️⭐️⭐️⭐️">⭐️⭐️⭐️⭐️</option>
+          <option value="⭐️⭐️⭐️⭐️⭐️">⭐️⭐️⭐️⭐️⭐️</option>
+          <option value="⭐️⭐️⭐️⭐️⭐️⭐️">⭐️⭐️⭐️⭐️⭐️⭐️</option>
         </select>
       </div>
       <div class="form-group">
@@ -71,7 +71,7 @@
         }
       }
       var textAreaValue = document.getElementById("textareaField").value;
-      var message = "Text Field: " + textFieldValue + "\nDate: " + dateFieldValue + "\nDropdown: " + selectFieldValue + "\nRadio Button: " + radioValue + "\nText Area: " + textAreaValue;
+      var message = "Name: " + textFieldValue + "\nBorn: " + dateFieldValue + "\nRating: " + selectFieldValue + "\nRadio Button: " + radioValue + "\nSuggestion: " + textAreaValue;
       alert(message);
     });
   </script>
