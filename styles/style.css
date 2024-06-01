@@ -1,12 +1,10 @@
-/* Gaya khusus untuk foto personel */
 .personel-img {
-    max-width: 150px; /* Atur lebar maksimum untuk gambar personel */
-    margin-bottom: 10px; /* Beri jarak antara gambar */
+    max-width: 150px;
+    margin-bottom: 10px;
   }
-  /* Buat video menyesuaikan dengan lebar elemen */
   .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
   }
